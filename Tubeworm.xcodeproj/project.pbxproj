@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA399E1951E377E2649ACD3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542A27A613AD5B3D44D1306 /* SettingsViewModel.swift */; };
+		1BF8E842964F127175D927EC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A31DE37732E991AD08B4357 /* HistoryView.swift */; };
+		1D7DE9E06426EA58CF23D8AC /* LangGraphAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCCB93416A79D5E0207485 /* LangGraphAPIClient.swift */; };
+		26E02E47EE91FEDA32278F32 /* FortuneResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D739E817C9CD145B08C20908 /* FortuneResultView.swift */; };
+		2731668B6DC1CC72F2B2CDC3 /* ZodiacBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980202F9BA9629B0ABC9E6AA /* ZodiacBadgeView.swift */; };
+		28D2FBD1E4BD75437A145C48 /* FortunePromptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE665C236DB0ADE3E03DA3 /* FortunePromptBuilder.swift */; };
+		37A8458825FFAF4BF991E6D2 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A88235815F0E3CC80CD5B67 /* SettingsService.swift */; };
+		4AEA35EEE1ADD4C7FA516798 /* FortuneStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699DF191127808CE511772A /* FortuneStorageService.swift */; };
+		4B7B0AC0199E83C618C7E9E8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F3151B99AEB90F02673B9 /* MainTabView.swift */; };
+		52D32E6278E1347CAC708730 /* FortuneCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DD60075D839B6F99C4D0F7 /* FortuneCategory.swift */; };
+		536BC8DF2D24ADDB9435AF40 /* TubewormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4149B1F8DB3398267B45A17 /* TubewormApp.swift */; };
+		5B3E86FE64B9C2B1C61ECB5A /* APIEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325E27F2376C343199791FE /* APIEvent.swift */; };
+		636CE48837D990EBCA6FE32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BC2AE7B0EC7C217D61B16D /* Assets.xcassets */; };
+		6CB9D9AF337A488AD1031BFE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F5B1A786E3538A4B02022 /* SettingsView.swift */; };
+		6F7061BE467B5F2EAB5C8998 /* FortuneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E5F00A5835B5BE22DB765 /* FortuneViewModel.swift */; };
+		815D8B7543E8A7756E0EB8BD /* FortuneReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDE4D88D5A84321D4B2AA8 /* FortuneReadingView.swift */; };
+		823D4663CBBC4739F7A49D28 /* TubewormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698D5C870B20DF2A1C887E7A /* TubewormTests.swift */; };
+		927C0ADB47C6F3723A1D0E4C /* FortuneInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BE4E8A569E30731C845E9 /* FortuneInputView.swift */; };
+		9C3FE42ADD858583993A114E /* FortuneHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D9A663BEC10E0E76DFCA1 /* FortuneHomeView.swift */; };
+		A5EA972020F555957A162D1C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C5A87ADE6B2E47C276240E /* UserProfile.swift */; };
+		C130455AEE471B1B42D00FF1 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B899D0F88476D86B7DFE69 /* HistoryViewModel.swift */; };
+		DDA50EC78A64E8C1D621853B /* MysticBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB75C1218366C92B5D20ED /* MysticBackground.swift */; };
+		E25C4BA221BF2DD6692D926F /* ZodiacSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABC72A218173E48DF75FE5E /* ZodiacSign.swift */; };
+		E4FB439B5D2C5BBE3BCD978F /* FortuneResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0CF542DA7F6D7A155BF25 /* FortuneResult.swift */; };
+		F2FB9AD0A8FBEC8C9B2B6F7E /* FortuneParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793B6D7A947D91E02C526E7 /* FortuneParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98157DD2664BEBEE89D34D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94136CFDA7DC645348A2C336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FCA3BE40373664D3848A9F0;
+			remoteInfo = Tubeworm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ADE665C236DB0ADE3E03DA3 /* FortunePromptBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunePromptBuilder.swift; sourceTree = "<group>"; };
+		0DDCCB93416A79D5E0207485 /* LangGraphAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangGraphAPIClient.swift; sourceTree = "<group>"; };
+		0F2F3151B99AEB90F02673B9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2325E27F2376C343199791FE /* APIEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEvent.swift; sourceTree = "<group>"; };
+		26C5A87ADE6B2E47C276240E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		2A31DE37732E991AD08B4357 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3542A27A613AD5B3D44D1306 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		354F5B1A786E3538A4B02022 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4A88235815F0E3CC80CD5B67 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		57DD2BF3508CBE96EB82F391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5B8D0B48C226AC2C72A08CAA /* TubewormTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TubewormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5D9A663BEC10E0E76DFCA1 /* FortuneHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneHomeView.swift; sourceTree = "<group>"; };
+		698D5C870B20DF2A1C887E7A /* TubewormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubewormTests.swift; sourceTree = "<group>"; };
+		7793B6D7A947D91E02C526E7 /* FortuneParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneParser.swift; sourceTree = "<group>"; };
+		7ABC72A218173E48DF75FE5E /* ZodiacSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSign.swift; sourceTree = "<group>"; };
+		82BC2AE7B0EC7C217D61B16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A8E5F00A5835B5BE22DB765 /* FortuneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneViewModel.swift; sourceTree = "<group>"; };
+		8FB372229AB21FF35CC0CEE7 /* Tubeworm.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tubeworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		980202F9BA9629B0ABC9E6AA /* ZodiacBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacBadgeView.swift; sourceTree = "<group>"; };
+		AC4BE4E8A569E30731C845E9 /* FortuneInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneInputView.swift; sourceTree = "<group>"; };
+		B2FDE4D88D5A84321D4B2AA8 /* FortuneReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneReadingView.swift; sourceTree = "<group>"; };
+		C3DD60075D839B6F99C4D0F7 /* FortuneCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCategory.swift; sourceTree = "<group>"; };
+		C4149B1F8DB3398267B45A17 /* TubewormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubewormApp.swift; sourceTree = "<group>"; };
+		CCEB75C1218366C92B5D20ED /* MysticBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticBackground.swift; sourceTree = "<group>"; };
+		D0B899D0F88476D86B7DFE69 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		D699DF191127808CE511772A /* FortuneStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneStorageService.swift; sourceTree = "<group>"; };
+		D739E817C9CD145B08C20908 /* FortuneResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneResultView.swift; sourceTree = "<group>"; };
+		FCB0CF542DA7F6D7A155BF25 /* FortuneResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03AAA9E03CDA2BBC91C79962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FB372229AB21FF35CC0CEE7 /* Tubeworm.app */,
+				5B8D0B48C226AC2C72A08CAA /* TubewormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07182CC4D96CE18AC5C739CD = {
+			isa = PBXGroup;
+			children = (
+				6536DE90FBC1BCBC9E44F324 /* Tubeworm */,
+				8C53E2F3A003A9107583DEE4 /* TubewormTests */,
+				03AAA9E03CDA2BBC91C79962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CDE628298900CE4908BF3FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F3151B99AEB90F02673B9 /* MainTabView.swift */,
+				280146E69E07029886F3C36E /* Components */,
+				CCA77D50F4670E7F33DCD2B1 /* Fortune */,
+				AF3AE6FC1288195F3F066F79 /* History */,
+				38FC62CFAB2D1B63E86F3D80 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FE6909B5243BA728864CC14 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8A8E5F00A5835B5BE22DB765 /* FortuneViewModel.swift */,
+				D0B899D0F88476D86B7DFE69 /* HistoryViewModel.swift */,
+				3542A27A613AD5B3D44D1306 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		280146E69E07029886F3C36E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB75C1218366C92B5D20ED /* MysticBackground.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		38FC62CFAB2D1B63E86F3D80 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				354F5B1A786E3538A4B02022 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4ABCA1AAA865AEC3EE4C32DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57DD2BF3508CBE96EB82F391 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5461CF14B3DCF91C6F629567 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C4149B1F8DB3398267B45A17 /* TubewormApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6536DE90FBC1BCBC9E44F324 /* Tubeworm */ = {
+			isa = PBXGroup;
+			children = (
+				82BC2AE7B0EC7C217D61B16D /* Assets.xcassets */,
+				5461CF14B3DCF91C6F629567 /* App */,
+				9DE59D6405A2D50464821F6C /* Models */,
+				4ABCA1AAA865AEC3EE4C32DA /* Resources */,
+				C83CFE4ED38BB4BB4A5162F1 /* Services */,
+				1FE6909B5243BA728864CC14 /* ViewModels */,
+				1CDE628298900CE4908BF3FC /* Views */,
+			);
+			path = Tubeworm;
+			sourceTree = "<group>";
+		};
+		8C53E2F3A003A9107583DEE4 /* TubewormTests */ = {
+			isa = PBXGroup;
+			children = (
+				698D5C870B20DF2A1C887E7A /* TubewormTests.swift */,
+			);
+			path = TubewormTests;
+			sourceTree = "<group>";
+		};
+		9DE59D6405A2D50464821F6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2325E27F2376C343199791FE /* APIEvent.swift */,
+				C3DD60075D839B6F99C4D0F7 /* FortuneCategory.swift */,
+				FCB0CF542DA7F6D7A155BF25 /* FortuneResult.swift */,
+				26C5A87ADE6B2E47C276240E /* UserProfile.swift */,
+				7ABC72A218173E48DF75FE5E /* ZodiacSign.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF3AE6FC1288195F3F066F79 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				2A31DE37732E991AD08B4357 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		C83CFE4ED38BB4BB4A5162F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7793B6D7A947D91E02C526E7 /* FortuneParser.swift */,
+				0ADE665C236DB0ADE3E03DA3 /* FortunePromptBuilder.swift */,
+				D699DF191127808CE511772A /* FortuneStorageService.swift */,
+				0DDCCB93416A79D5E0207485 /* LangGraphAPIClient.swift */,
+				4A88235815F0E3CC80CD5B67 /* SettingsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CCA77D50F4670E7F33DCD2B1 /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				5F5D9A663BEC10E0E76DFCA1 /* FortuneHomeView.swift */,
+				AC4BE4E8A569E30731C845E9 /* FortuneInputView.swift */,
+				B2FDE4D88D5A84321D4B2AA8 /* FortuneReadingView.swift */,
+				D739E817C9CD145B08C20908 /* FortuneResultView.swift */,
+				980202F9BA9629B0ABC9E6AA /* ZodiacBadgeView.swift */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BD9782C82C01EF2384658A3 /* TubewormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8822C51A7F38F3CAE9B24869 /* Build configuration list for PBXNativeTarget "TubewormTests" */;
+			buildPhases = (
+				71CAB32B83F16044CBC5F675 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AB5E7F7AD1A77FA952B12A /* PBXTargetDependency */,
+			);
+			name = TubewormTests;
+			packageProductDependencies = (
+			);
+			productName = TubewormTests;
+			productReference = 5B8D0B48C226AC2C72A08CAA /* TubewormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FCA3BE40373664D3848A9F0 /* Tubeworm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1699167067A8A4929C1411E /* Build configuration list for PBXNativeTarget "Tubeworm" */;
+			buildPhases = (
+				50F71DDFA574D23191575C6C /* Sources */,
+				1C42A553A9C41BB9F1948536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tubeworm;
+			packageProductDependencies = (
+			);
+			productName = Tubeworm;
+			productReference = 8FB372229AB21FF35CC0CEE7 /* Tubeworm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94136CFDA7DC645348A2C336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7BD9782C82C01EF2384658A3 = {
+						DevelopmentTeam = "";
+					};
+					9FCA3BE40373664D3848A9F0 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 10204653AFC17F7B555FFBD7 /* Build configuration list for PBXProject "Tubeworm" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 07182CC4D96CE18AC5C739CD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 03AAA9E03CDA2BBC91C79962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FCA3BE40373664D3848A9F0 /* Tubeworm */,
+				7BD9782C82C01EF2384658A3 /* TubewormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C42A553A9C41BB9F1948536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636CE48837D990EBCA6FE32F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F71DDFA574D23191575C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3E86FE64B9C2B1C61ECB5A /* APIEvent.swift in Sources */,
+				52D32E6278E1347CAC708730 /* FortuneCategory.swift in Sources */,
+				9C3FE42ADD858583993A114E /* FortuneHomeView.swift in Sources */,
+				927C0ADB47C6F3723A1D0E4C /* FortuneInputView.swift in Sources */,
+				F2FB9AD0A8FBEC8C9B2B6F7E /* FortuneParser.swift in Sources */,
+				28D2FBD1E4BD75437A145C48 /* FortunePromptBuilder.swift in Sources */,
+				815D8B7543E8A7756E0EB8BD /* FortuneReadingView.swift in Sources */,
+				E4FB439B5D2C5BBE3BCD978F /* FortuneResult.swift in Sources */,
+				26E02E47EE91FEDA32278F32 /* FortuneResultView.swift in Sources */,
+				4AEA35EEE1ADD4C7FA516798 /* FortuneStorageService.swift in Sources */,
+				6F7061BE467B5F2EAB5C8998 /* FortuneViewModel.swift in Sources */,
+				1BF8E842964F127175D927EC /* HistoryView.swift in Sources */,
+				C130455AEE471B1B42D00FF1 /* HistoryViewModel.swift in Sources */,
+				1D7DE9E06426EA58CF23D8AC /* LangGraphAPIClient.swift in Sources */,
+				4B7B0AC0199E83C618C7E9E8 /* MainTabView.swift in Sources */,
+				DDA50EC78A64E8C1D621853B /* MysticBackground.swift in Sources */,
+				37A8458825FFAF4BF991E6D2 /* SettingsService.swift in Sources */,
+				6CB9D9AF337A488AD1031BFE /* SettingsView.swift in Sources */,
+				0AA399E1951E377E2649ACD3 /* SettingsViewModel.swift in Sources */,
+				536BC8DF2D24ADDB9435AF40 /* TubewormApp.swift in Sources */,
+				A5EA972020F555957A162D1C /* UserProfile.swift in Sources */,
+				2731668B6DC1CC72F2B2CDC3 /* ZodiacBadgeView.swift in Sources */,
+				E25C4BA221BF2DD6692D926F /* ZodiacSign.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CAB32B83F16044CBC5F675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823D4663CBBC4739F7A49D28 /* TubewormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AB5E7F7AD1A77FA952B12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FCA3BE40373664D3848A9F0 /* Tubeworm */;
+			targetProxy = 98157DD2664BEBEE89D34D45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		103365C528EC60F6E9C22991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uranai.tubeworm.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tubeworm.app/Tubeworm";
+			};
+			name = Release;
+		};
+		7FE705C4ADBC9D2A3FBE157E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		88CEDE0274E2762B2F96FD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A2A9B6236CA8796B7B8B41C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tubeworm/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uranai.tubeworm;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2CDB2EE50D11706E24D3DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tubeworm/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uranai.tubeworm;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7B68BA2FB55F00D7A5FCC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uranai.tubeworm.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tubeworm.app/Tubeworm";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10204653AFC17F7B555FFBD7 /* Build configuration list for PBXProject "Tubeworm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE705C4ADBC9D2A3FBE157E /* Debug */,
+				88CEDE0274E2762B2F96FD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8822C51A7F38F3CAE9B24869 /* Build configuration list for PBXNativeTarget "TubewormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B68BA2FB55F00D7A5FCC22 /* Debug */,
+				103365C528EC60F6E9C22991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1699167067A8A4929C1411E /* Build configuration list for PBXNativeTarget "Tubeworm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CDB2EE50D11706E24D3DCE /* Debug */,
+				A2A9B6236CA8796B7B8B41C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94136CFDA7DC645348A2C336 /* Project object */;
+}
